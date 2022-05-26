@@ -1,0 +1,10 @@
+str=input("Enter any String :")
+L=str.split( )
+L1=[ ]
+for i in L:
+     if i not in L1:
+         L1.append(i)
+str=""
+for i in L1:
+     str=str+" "+i
+print("String with unique words are :",str)
