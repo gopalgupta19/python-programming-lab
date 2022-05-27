@@ -1,0 +1,6 @@
+str1 = input("Enter any string")
+c=0
+for i in str1:
+    if i.isalpha()==True:
+        c = c+ 1
+print("Total number of alphabets are", c)
